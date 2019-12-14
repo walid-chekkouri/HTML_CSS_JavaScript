@@ -1,0 +1,15 @@
+    body{color:rgb(30%, 30%, 30%); background-color:black;}
+     p {
+         color: rgb(90%, 90%, 90%);
+         font: bold 15pt Georgia, serif;
+        }
+     em{color:rgb(80, 5, 120);}
+     h1 em{
+         color:#fed000;
+         font-weight:bold;
+         font-size:14pt;
+         font-family: Georgia,serif;
+        }
+     ul {
+        list-style-type: square;
+      }

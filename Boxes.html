@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head><!--pixels usually used for text font-->
+    <title>Boxes Example</title>
+    <style> 
+   .FancyBox{
+       border:5px solid green;
+       margin:1em;
+       padding:0.5em;
+       width: 10%;
+       height : 30%;
+       float:left;
+       }
+       .SmallBox{
+        border:5px solid red;
+        width:75%;
+       }
+       strong{
+           font-size:180%;
+           color:blue;
+       }
+       #UniqueID{
+           font-variant:small-caps;
+       }
+    </style>
+  </head>
+  <body>
+
+  <p class="FancyBox">This paragraph has a fancy little box</p>
+  <p class="FancyBox">This other paragraph has a fancy little box too</p>
+  <div class ="FancyBox"> This dev has a fancy box</div>
+  <div class ="FancyBox"> This is an other dev that has a fancy box</div>
+  <p>This is a normal paragraph1</p><!--the paragraphs wrap around the floating boxes-->
+  <p id = "UniqueID">This is a normal paragraph2</p><!--where lowercase letters are replaced with small capital letters-->
+  <p>This is a normal paragraph3</p>
+  <p>This is a normal paragraph4</p>
+  <p>This is a normal paragraph5</p>
+  <p>This is a <strong>normal</strong> paragraph6</p>
+  <div class="FancyBox"> This is the big Dev</dev>
+    <div class="SmallBox">This is the small Dev</dev>
+  </div>
+  </div>
+</body>
+</html
